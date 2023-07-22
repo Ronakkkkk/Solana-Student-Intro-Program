@@ -9,6 +9,11 @@ edition = "2021"
 solana-program = "=1.10.29"
 borsh = "0.9.3"
 thiserror = "1.0.31"
+spl-token = { version="3.2.0", features = [ "no-entrypoint" ] }
+spl-associated-token-account = { version="=1.0.5", features = [ "no-entrypoint" ] }
+anchor-lang = "0.27.0"
+anchor-spl = "0.27.0"
+winnow="0.4.1"
 
 [lib]
 crate-type = ["cdylib", "lib"]
